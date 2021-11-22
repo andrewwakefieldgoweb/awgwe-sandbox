@@ -1,0 +1,18 @@
+[13-Sep-2021 12:35:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\awgwe\Local Sites\sandbox\app\public\wp-content\plugins\wpforms-lite\includes\fields\class-email.php on line 778
+[13-Sep-2021 12:35:00 UTC] PHP Stack trace:
+[13-Sep-2021 12:35:00 UTC] PHP   1. {main}() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-admin\admin-ajax.php:0
+[13-Sep-2021 12:35:00 UTC] PHP   2. do_action() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-admin\admin-ajax.php:187
+[13-Sep-2021 12:35:00 UTC] PHP   3. WP_Hook->do_action() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-includes\plugin.php:470
+[13-Sep-2021 12:35:00 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-includes\class-wp-hook.php:327
+[13-Sep-2021 12:35:00 UTC] PHP   5. genesis_do_onboarding_process() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-includes\class-wp-hook.php:303
+[13-Sep-2021 12:35:00 UTC] PHP   6. genesis_onboarding_import_content() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-content\themes\genesis\lib\admin\onboarding\ajax-functions.php:101
+[13-Sep-2021 12:35:00 UTC] PHP   7. do_action() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-content\themes\genesis\lib\functions\onboarding.php:609
+[13-Sep-2021 12:35:00 UTC] PHP   8. WP_Hook->do_action() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-includes\plugin.php:470
+[13-Sep-2021 12:35:00 UTC] PHP   9. WP_Hook->apply_filters() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-includes\class-wp-hook.php:327
+[13-Sep-2021 12:35:00 UTC] PHP  10. studiopress_insert_contact_form() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-includes\class-wp-hook.php:303
+[13-Sep-2021 12:35:00 UTC] PHP  11. studiopress_maybe_create_wpforms_form() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-content\themes\genesis-sample\lib\wpforms.php:80
+[13-Sep-2021 12:35:00 UTC] PHP  12. WPForms_Form_Handler->add() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-content\themes\genesis-sample\lib\wpforms.php:58
+[13-Sep-2021 12:35:00 UTC] PHP  13. WPForms_Form_Handler->update() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-content\plugins\wpforms-lite\includes\class-form.php:339
+[13-Sep-2021 12:35:00 UTC] PHP  14. apply_filters() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-content\plugins\wpforms-lite\includes\class-form.php:424
+[13-Sep-2021 12:35:00 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-includes\plugin.php:189
+[13-Sep-2021 12:35:00 UTC] PHP  16. WPForms_Field_Email->save_form_args() C:\Users\awgwe\Local Sites\sandbox\app\public\wp-includes\class-wp-hook.php:303

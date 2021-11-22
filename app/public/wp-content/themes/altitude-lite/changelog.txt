@@ -1,0 +1,52 @@
+Altitude Lite
+**************
+Version 3.0.1
+- Fix - Minor bug fixes
+
+Version 3.0.0
+- Made child theme of Responsive theme
+
+Version 2.0 (12/21/2018)
+- Improved theme look and feel
+- Added Gutenberg support
+
+Version 1.4 (10/31/2018)
+- Fixed custom header issue
+
+Version 1.3 (07/18/2017)
+- Added visible edit links in the customizer preview
+
+Version 1.2 (04/21/2017)
+- Fixed issue with PHP version 7.1
+
+Version 1.1 (10/06/2016)
+- Fixed text alignment issue of 404 page.
+
+Version 1.0.0.5 (08/05/2016)
+- Updated as per latest Theme Check guidelines
+
+Version 1.0.0.4 (11/11/2014)
+- Tweaked style for default/fallback menu.
+
+Version 1.0.0.3 (11/11/2014)
+- Removed admin.php and all related to it.
+- Removed custom comment markup altitude_comment().
+- Removed editor-style.css.
+- Tweaked altitude_sanitize_sidebar().
+
+Version 1.0.0.2 (11/10/2014)
+- Removed template-blog.php as it is not required.
+- Added esc_html() to altitude_home_button_text.
+- Replaced get_altitude_sidebar() with altitude_get_sidebar().
+- Tweaked the style enqueuing.
+
+Version 1.0.0.1 (10/29/2014)
+- Removed isotope.js as it's not GPL compatible.
+- Added Font Awesome locally instead of using CDN.
+- Removed script from header.php.
+- Fixed undefined variable notice in 404 page.
+- Removed link from admin footer.
+
+Version 1.0.0.0 (08/20/2014)
+
+- Initial release.
